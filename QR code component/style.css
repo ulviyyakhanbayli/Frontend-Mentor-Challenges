@@ -11,3 +11,81 @@ html {
     --grayish-blue: hsl(220, 15%, 55%);
     --dark-blue: hsl(218, 44%, 22%);
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--light-gray);
+    font-family: "Outfit", sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.card {
+    background-color: var(--white);
+    width: 290px;
+    height: 450px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.card > img {
+    border-radius: 10px;
+}
+
+.card-text {
+    padding: 15px;
+}
+
+.card-text > h3{
+    color: var(--dark-blue);
+}
+
+.card-text > p {
+    color: var(--grayish-blue);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { 
+    font-size: 11px; 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
