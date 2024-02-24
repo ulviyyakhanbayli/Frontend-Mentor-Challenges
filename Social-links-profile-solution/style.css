@@ -18,7 +18,19 @@ body {
     font-size: 14px;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    min-height: 100vh;
+}
 
+.card {
+    background-color: var(--dark-grey);
+    width: 380px;
+    height: 610px;
+}
 
 
 /* FOOTER */
