@@ -1,6 +1,3 @@
-/* - Mobile: 375px
-- Desktop: 1440px */
-
 html {
     font-size: 15px;
 }
@@ -27,6 +24,8 @@ body {
     display: flex;
     justify-content: center;
     text-align: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 .card {
@@ -41,16 +40,14 @@ body {
     border-radius: 10px;
 }
 
-.card-text {
-    padding: 15px;
-}
-
 .card-text > h3{
     color: var(--dark-blue);
+    padding: 15px 15px 10px 15px;
 }
 
 .card-text > p {
     color: var(--grayish-blue);
+    padding: 10px 15px 15px 15px;
 }
 
 
