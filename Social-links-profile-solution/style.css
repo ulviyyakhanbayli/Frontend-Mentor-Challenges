@@ -30,8 +30,52 @@ body {
     background-color: var(--dark-grey);
     width: 380px;
     height: 610px;
+    border-radius: 15px;
 }
 
+.user-avatar {
+    padding: 30px 140px;
+}
+
+.user-avatar > img {
+    border-radius: 100px;
+    width: 90px;
+}
+
+.name {
+    color: var(--white);
+}
+
+.location {
+    color: var(--green);
+    padding: 15px 0px;
+}
+
+.info {
+    color: white;
+    padding: 15px 0px 30px 0px;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.social-media > a {
+    background-color: var(--grey);
+    color: var(--white);
+    text-decoration: none;
+    margin: 0px 40px;
+    padding: 15px 0px;
+    border-radius: 10px;
+}
+
+.social-media > a:hover {
+    background-color: var(--green);
+    color: var(--off-black);
+    transition: all 1s ;
+}
 
 /* FOOTER */
 .attribution { 
