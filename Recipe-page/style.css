@@ -15,22 +15,77 @@
     box-sizing: border-box;
 }
 
+/* HELPER */
 body {
     font-size: 16px;
     font-family: "Outfit", sans-serif;
     background-color: var(--eggshell);
+    color: var(--wenge-brown);
+    /* min-width: 300px;
+    max-width: 740px; */
 }
 
 .title-font {
     font-family: "Young Serif", serif;
 }
 
+h2, 
+ol > li::marker,
+ul > li::marker {
+    color: var(--nutmeg);
+}
+
+h2 {
+    margin: 30px 0px;
+}
+/* HELPER - END */
+
 .container {
-    
+    display: grid;
+    place-items: center;
 }
 
 .card {
     background-color: var(--white);
     width: 740px;
     height: 1700px;
+    margin: 120px 0px;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.card > img {
+    border-radius: 15px;
+}
+
+.recipe > h1 {
+    padding: 40px 0px;
+    color: var(--dark-charcoal);
+}
+
+.preparation {
+    margin-top: 30px;
+    padding: 30px;
+    background-color: var(--rose-white);
+}
+
+.preparation > h3,
+.preparation > ul > li::marker {
+    color: var(--dark-raspberry);
+}
+
+.preparation > ul {
+    margin: 30px 0px 0px 20px;
+}
+
+.preparation > ul > li {
+    padding-bottom: 20px;
+}
+
+.preparation > ul > li:last-child {
+    padding-bottom: 0;
+}
+
+.ingredients {
+
 }
