@@ -15,7 +15,6 @@
     box-sizing: border-box;
 }
 
-/* HELPER */
 body {
     font-size: 16px;
     font-family: "Outfit", sans-serif;
@@ -29,17 +28,6 @@ body {
     font-family: "Young Serif", serif;
 }
 
-h2, 
-ol > li::marker,
-ul > li::marker {
-    color: var(--nutmeg);
-}
-
-h2 {
-    margin: 30px 0px;
-}
-/* HELPER - END */
-
 .container {
     display: grid;
     place-items: center;
@@ -48,7 +36,7 @@ h2 {
 .card {
     background-color: var(--white);
     width: 740px;
-    height: 1700px;
+    height: 1800px;
     margin: 120px 0px;
     padding: 40px;
     border-radius: 15px;
@@ -63,10 +51,22 @@ h2 {
     color: var(--dark-charcoal);
 }
 
+h2 {
+    margin: 30px 0px;
+}
+
+h2, 
+ol > li::marker,
+ul > li::marker,
+.nutrition-table > tbody > tr > td:last-child {
+    color: var(--nutmeg);
+}
+
 .preparation {
     margin-top: 30px;
     padding: 30px;
     background-color: var(--rose-white);
+    border-radius: 15px;
 }
 
 .preparation > h3,
@@ -74,18 +74,47 @@ h2 {
     color: var(--dark-raspberry);
 }
 
-.preparation > ul {
-    margin: 30px 0px 0px 20px;
+.preparation > ul,
+.ingredients > ul,
+.instructions > ol {
+    margin: 30px 0px 30px 20px;
 }
 
-.preparation > ul > li {
-    padding-bottom: 20px;
+.preparation > ul > li,
+.ingredients > ul > li,
+.instructions > ol> li {
+    padding-bottom: 10px;
 }
 
-.preparation > ul > li:last-child {
+.preparation > ul > li:last-child,
+.ingredients > ul > li:last-child,
+.instructions > ol > li:last-child {
     padding-bottom: 0;
 }
 
-.ingredients {
+.ingredients,
+.instructions {
+    border-bottom: 1px solid;
+    border-color: var(--light-grey);
+}
 
+.nutrition-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+.nutrition-table > tbody > tr > td {
+    padding: 15px 20px;
+    border-bottom: 1px solid;
+    border-color: var(--light-grey);
+}
+
+.attribution {
+    font-size: 11px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%; 
+    text-align: center; 
 }
