@@ -1,0 +1,75 @@
+:root {
+    --yellow: hsl(47, 88%, 63%);
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 50%);
+    --black: hsl(0, 0%, 7%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: "Figtree", sans-serif;
+    background-color: var(--yellow);
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.card {
+    width: 380px;
+    height: 520px;
+    padding: 22px;
+    border-radius: 15px;
+    background-color: var(--white);
+    border: 1px solid;
+    box-shadow: 10px 10px;
+}
+
+svg {
+    border-radius: 15px;
+    margin-bottom: 22px;
+}
+
+.card-top > p:first-child {
+    background-color: var(--yellow);
+    display: inline;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+.card-top > p:last-child {
+    padding-top: 22px;
+}
+
+h1 {
+    font-size: 26px;
+    margin: 22px 0px;
+}
+
+.card-middle > p {
+    color: var(--grey);
+}
+
+.card-bottom {
+    display: flex;
+    align-items: center;
+    margin-top: 22px;
+}
+
+img {
+    width: 32px;
+    margin-right: 10px;
+}
+
+.attribution {
+    display: flex;
+    justify-content: center;
+}
