@@ -1,3 +1,3 @@
 # Testimonials grid section
 
-[Project Link](https://ulviyyakhanbayli-testimonials-grid.netlify.app/)
+[Preview Site](https://ulviyyakhanbayli-testimonials-grid.netlify.app/)

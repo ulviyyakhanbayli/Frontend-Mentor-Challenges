@@ -1,3 +1,3 @@
 # Social links profile solution
 
-[Project Link](https://ulviyyakhanbayli-social-links-profile.netlify.app/)
+[Preview Site](https://ulviyyakhanbayli-social-links-profile.netlify.app/)

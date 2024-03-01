@@ -1,3 +1,3 @@
 # Recipe page
 
-[Project Link](https://ulviyyakhanbayli-recipe-page.netlify.app/)
+[Preview Site](https://ulviyyakhanbayli-recipe-page.netlify.app/)
